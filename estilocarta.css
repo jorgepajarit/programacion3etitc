@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+.datosizq  {
+  text-align: right;
+  font-style: italic;
+}
+.negrilla {
+  font-weight: bold;
+}
+
+.carta {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.cartatitulo {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.carta-header h1 {
+  margin: 0;
+  color: #333;
+}
+
+.carta-body {
+  line-height: 1.6;
+}
+
+.carta-body p {
+  margin: 0 0 10px 0;
+  color: #555;
+}
+.imagen img {
+  width: 500px; 
+  height: 500px; 
+}
