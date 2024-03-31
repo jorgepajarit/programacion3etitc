@@ -72,3 +72,28 @@ form, form ul{
     width: 400px;background-color: rgb(216, 10, 10);
   }
   
+  .seccion hora {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#hora {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#Extraterrestre {
+  width: 150px; /* Ajusta el tamaño según el tamaño de tu video */
+  height: auto; /* Esto permite que la altura se ajuste automáticamente según el tamaño del video */
+  margin: 0 auto;
+  animation: extravideo 1s infinite alternate;
+}
+
+@keyframes extravideo {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-10px);
+  }
+}
